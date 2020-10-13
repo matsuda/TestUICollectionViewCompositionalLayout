@@ -26,6 +26,10 @@
 		0EDC97F02535AAF6008738A5 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDC97EF2535AAF6008738A5 /* Photo.swift */; };
 		0EDC98002535AB1A008738A5 /* PhotoListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDC97FF2535AB1A008738A5 /* PhotoListRequest.swift */; };
 		0EDC980E2535AF98008738A5 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDC980D2535AF98008738A5 /* ImageDownloader.swift */; };
+		0EDC98142535B0A0008738A5 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDC98132535B0A0008738A5 /* Photo.swift */; };
+		0EDC981A2535B0B3008738A5 /* PhotoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDC98192535B0B3008738A5 /* PhotoList.swift */; };
+		0EDC98202535B14A008738A5 /* PhotoListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDC981F2535B14A008738A5 /* PhotoListUseCase.swift */; };
+		0EDC98262535B24E008738A5 /* PhotoListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDC98252535B24E008738A5 /* PhotoListRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +111,10 @@
 		0EDC97EF2535AAF6008738A5 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		0EDC97FF2535AB1A008738A5 /* PhotoListRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListRequest.swift; sourceTree = "<group>"; };
 		0EDC980D2535AF98008738A5 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		0EDC98132535B0A0008738A5 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		0EDC98192535B0B3008738A5 /* PhotoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoList.swift; sourceTree = "<group>"; };
+		0EDC981F2535B14A008738A5 /* PhotoListUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListUseCase.swift; sourceTree = "<group>"; };
+		0EDC98252535B24E008738A5 /* PhotoListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +225,7 @@
 		0EDC97782535A6A3008738A5 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				0EDC98252535B24E008738A5 /* PhotoListRepository.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -233,6 +242,8 @@
 		0EDC977A2535A6A3008738A5 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				0EDC98132535B0A0008738A5 /* Photo.swift */,
+				0EDC98192535B0B3008738A5 /* PhotoList.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -240,6 +251,7 @@
 		0EDC977B2535A6A3008738A5 /* UseCase */ = {
 			isa = PBXGroup;
 			children = (
+				0EDC981F2535B14A008738A5 /* PhotoListUseCase.swift */,
 			);
 			path = UseCase;
 			sourceTree = "<group>";
@@ -616,8 +628,12 @@
 			files = (
 				0EDC97902535A6A3008738A5 /* AppDelegate.swift in Sources */,
 				0EDC97912535A6A3008738A5 /* SceneDelegate.swift in Sources */,
+				0EDC98262535B24E008738A5 /* PhotoListRepository.swift in Sources */,
+				0EDC981A2535B0B3008738A5 /* PhotoList.swift in Sources */,
 				0EDC980E2535AF98008738A5 /* ImageDownloader.swift in Sources */,
 				0EDC979C2535A73F008738A5 /* PhotoListViewController.swift in Sources */,
+				0EDC98142535B0A0008738A5 /* Photo.swift in Sources */,
+				0EDC98202535B14A008738A5 /* PhotoListUseCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
