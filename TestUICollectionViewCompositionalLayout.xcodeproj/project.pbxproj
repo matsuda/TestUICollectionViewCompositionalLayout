@@ -386,8 +386,8 @@
 		0EDC97802535A6A3008738A5 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				0EDC97812535A6A3008738A5 /* PhotoList */,
 				0EDC97852535A6A3008738A5 /* Common */,
+				0EDC97812535A6A3008738A5 /* PhotoList */,
 			);
 			path = UI;
 			sourceTree = "<group>";
